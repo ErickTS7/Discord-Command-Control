@@ -1,12 +1,18 @@
 # Requirements
 Python3
+
 Discord
+
 Discord BOT
+
 Discord Webhook (optional, only if you don't want to interact directly with the server)
+
 
 ### Python Libs (you can install manually, or just run 'pip install -r requirements.txt'
 discord.py (pip install discord)
+
 pyinstaller (pip install pyinstaller)
+
 
 # Guide
 ### Discord Bot
@@ -15,6 +21,7 @@ First, go to the discord developer application portal (https://discord.com/devel
 In your apllication, go to "Bot" section, and click "Reset Token" button (you will use this token in the code). Select the "Message Content Intent" option.
 
 Go to OAuth2 section, in "OAuth2 URL Generator" select "bot" option, and give the permissions "View Channels", "Send Messages", "Read Message History". Instead, if possible, you can just give the "Administrator" permission.
+
 Copy the generated URL, paste in your browser, and add the bot to your server.
 
 ### Installation
