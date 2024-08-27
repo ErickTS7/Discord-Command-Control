@@ -9,9 +9,9 @@ Discord Webhook (optional, only if you don't want to interact directly with the 
 
 
 ### Python Libs (you can install manually, or just run 'pip install -r requirements.txt'
-discord.py (pip install discord)
+discord.py ( ```pip install discord``` )
 
-pyinstaller (pip install pyinstaller)
+pyinstaller ( ```pip install pyinstaller``` )
 
 
 # Guide
@@ -52,6 +52,7 @@ Now, you can use this command to send the commands with the webhook:
 ```
 curl WEBHOOK_URL -H "Content-Type: application/json" --data "{\"content\": \"whoami\"}"
 ```
+
 
 
 
