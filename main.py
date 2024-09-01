@@ -1,5 +1,4 @@
 from typing import Final
-from random import randint
 from discord import Intents, Client, Message
 import subprocess
 from random import choice, randint
