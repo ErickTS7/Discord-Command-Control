@@ -8,7 +8,7 @@ Discord BOT
 Discord Webhook (optional, only if you don't want to interact directly with the server)
 
 
-### Python Libs (you can install manually, or just run 'pip install -r requirements.txt'
+### Python Libs (you can install manually, or just run 'pip install -r requirements.txt')
 discord.py ( ```pip install discord``` )
 
 pyinstaller ( ```pip install pyinstaller``` )
